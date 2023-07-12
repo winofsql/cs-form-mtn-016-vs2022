@@ -42,7 +42,7 @@ namespace cs_form_mtn_016_vs2022
                 return;
             }
             // 処理区分が修正で、データが存在したらエラー
-            if ( (this.処理区分.SelectedIndex == 1 || this.処理区分.SelectedIndex == 2) && !check)
+            if ((this.処理区分.SelectedIndex == 1 || this.処理区分.SelectedIndex == 2) && !check)
             {
                 myReader.Close();
                 myCon.Close();

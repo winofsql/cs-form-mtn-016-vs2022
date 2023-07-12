@@ -151,7 +151,7 @@
             性別.Location = new Point(141, 149);
             性別.Name = "性別";
             性別.Size = new Size(83, 23);
-            性別.TabIndex = 9;
+            性別.TabIndex = 5;
             // 
             // label1
             // 
@@ -160,7 +160,7 @@
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(31, 15);
-            label1.TabIndex = 8;
+            label1.TabIndex = 4;
             label1.Text = "性別";
             // 
             // Label5
@@ -170,7 +170,7 @@
             Label5.Margin = new Padding(4, 0, 4, 0);
             Label5.Name = "Label5";
             Label5.Size = new Size(55, 15);
-            Label5.TabIndex = 10;
+            Label5.TabIndex = 6;
             Label5.Text = "生年月日";
             // 
             // 生年月日
@@ -180,7 +180,7 @@
             生年月日.Name = "生年月日";
             生年月日.ShowCheckBox = true;
             生年月日.Size = new Size(213, 23);
-            生年月日.TabIndex = 11;
+            生年月日.TabIndex = 7;
             // 
             // 給与
             // 
@@ -225,7 +225,7 @@
             更新.Margin = new Padding(4);
             更新.Name = "更新";
             更新.Size = new Size(133, 26);
-            更新.TabIndex = 6;
+            更新.TabIndex = 8;
             更新.Text = "更新";
             更新.UseVisualStyleBackColor = true;
             更新.Click += 更新_Click;
@@ -236,7 +236,7 @@
             キャンセル.Margin = new Padding(4);
             キャンセル.Name = "キャンセル";
             キャンセル.Size = new Size(133, 26);
-            キャンセル.TabIndex = 7;
+            キャンセル.TabIndex = 9;
             キャンセル.Text = "キャンセル";
             キャンセル.UseVisualStyleBackColor = true;
             キャンセル.Click += キャンセル_Click;
